@@ -45,5 +45,11 @@ def find_a(array)
 end    
 
 def add_s(array)
-  array.collect { |word| word +"s" if array.index(word) != 1}
+  array.collect do |word| 
+    if array.index(word) != 1
+    word +"s" 
+    else
+    word
+    end
+  end
 end  
