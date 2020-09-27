@@ -23,3 +23,8 @@ end
 def swap_elements(array)
   array.swap!(1,2)
 end  
+
+def swap!(a,b)
+         self[a], self[b] = self[b], self[a]
+    self
+end
