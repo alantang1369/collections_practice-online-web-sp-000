@@ -26,7 +26,7 @@ def swap_elements(array)
      1
   # else 
    #  0 
-   #end 
+   end 
  end
 end  
 
