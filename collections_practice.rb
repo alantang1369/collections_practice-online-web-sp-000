@@ -44,6 +44,12 @@ def find_a(array)
   end
 end    
 
+def sum_array(array)
+  sum 
+  array.each { |a| sum += a }
+  sum
+end
+
 def add_s(array)
   array.collect do |word| 
     if array.index(word) != 1
